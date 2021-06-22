@@ -1,13 +1,11 @@
 * {
-  margin: 0 0;
+  /*margin: 0 0;*/
 }
 
 html {
-  margin: 0px 0px;
-  background-color: #4a945e;
+  background-color: #c5c5c5;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
 }
 
 body {
@@ -23,14 +21,12 @@ h2 {
   margin: 2px 0;
   display: block;
   text-align: center;
-
 }
 
 header {
   position: fixed;
   left: 0px;
   top:0px;
-  height: 4.5vh;
   width: 100%;
   background-color: #073763;
   /*border: 10px solid #5A692F;*/
@@ -49,9 +45,8 @@ footer {
   color: white;
 }
 
-.header {
+.headerstuff {
   display: inline-block;
-  margin-top: 1vh;
   margin: 0px 10px;
   /*margin-left: 25%;
   margin-right: 25%;*/
@@ -100,49 +95,46 @@ footer {
 }
 
 .name {
+  display: block;
+  position: absolute;
   margin-left: 10%;
-  margin-top: 6vh;
+  margin-top: 10%;
   font-size: 85px;
   color: white;
-  position: absolute;
 }
 
 #nameShadow {
+  display: block;
+  position: absolute;
   margin-left: 10.5%;
-  margin-top: 6.4vh;
+  margin-top: 10%;
   color: black;
   z-index: -1;
 }
 
 #bio  {
 /*background-color: rgb(255, 255, 255);*/
-  height: 75vh;
 }
 
 #biopic {
-  /*display: inline-block;*/
-  position: absolute;
-  margin-top: 22vh;
   margin-left: 7%;
-
-  height: 50vh;
-  /*border: 5px inset #A69E9B;*/
-  float: left;
+  margin-top: 30%;
+  margin-bottom: 5%;
+  border: 5px inset #A69E9B;
+  display: inline-block;
 }
 
 #biotext {
+  display: inline-block;
   min-width: 25vh;
   max-width:  600px;
   max-height: 350px;
   min-height: 117px;
-  /*display: inline-block;*/
   margin-left: 10%;
-  position: absolute;
-  /*top: 20vh;*/
+  margin-bottom: 5%;
   right: 10%;
-  margin-top: 20vh;
   background-color: #ffffffd8;
-  padding: 5px 5px;
+  padding: 10px 10px;
   border: 1px inset white;
   overflow: auto;
   font-family: 'Times New Roman', Times, serif;
@@ -151,6 +143,7 @@ footer {
 
 #perlerbeadprojectsgroup {
   background-color: white;
+  padding: 50px;
 }
 
 /*
@@ -200,6 +193,9 @@ footer {
 
 #perlerbeadprojectsgroup {
   background-color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #contactme {

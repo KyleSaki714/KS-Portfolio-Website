@@ -2,7 +2,7 @@
 <!--
  Name: Kyle Santos
  Date: 08-30-20 to 9-24
- Section: CSE 190e
+ div: CSE 190e
  This is the index.html page for my portfolio of myself.
  It includes links to my contacts, links to some of my past projects,
  information about my hobbies and work experience.
@@ -14,25 +14,26 @@
     <title>KS - About Me</title>
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
-
   <header>
     <!--<img src="logo.png" class="header" height=45 alt="logo">-->
     <!-- logo designed by Kyle Santos, 2020-->
-    <a href="index.html" class="header">
+    <a href="index.html" class="headerstuff">
       <h1>About Me</h1>
     </a>
-    <a href="workandschool.html" class="header">
+    <a href="workandschool.html" class="headerstuff">
       <h1>Work & School</h1>
     </a>
   </header>
-
-  <main id="aboutMe">
+  <div>
     <h1 class="name">Kyle Santos</h1>
     <h1 class="name" id="nameShadow">Kyle Santos</h1>
-    <section id="bio">
+  </div>
+  <main id="aboutMe">
+    
+    <div id="bio">
       <img src="me2.jpg" height=300px alt="Picture of Kyle" id="biopic">
       <!--© Photo taken by Kyle Santos 2020 -->
-      <section id="biotext">
+      <div id="biotext">
         <h2>Bio</h2>
         <p>Hey! My name is Kyle, a freshman at UW studying Computer Science.
           <br>
@@ -50,22 +51,20 @@
           ゲームが好きなので、将来、多分ゲームの会社につとめりたいです。一年間ぐらい日本語を習いますけど、
           大学の日本語の授業を受けて、あまり日本語上手じゃないです、ごまん。
         </p>
-      </section>
-    </section>
-
-
-    <section>
+      </div>
+    </div>
+    <div>
         <!--<h2 class="currentPage">About Me</h2>-->
       <table class="interests" style="width:100%">
         <tr>
           <th>
-            <section>
+            <div>
               <h3>Unique Facts</h3>
                 <ul>
                   <li>Born in the US territory of Guam</li>
                   <li>Was valedictorian in Kindergarten</li>
                 </ul>
-            </section>
+            </div>
           </th>
           <th>
             <aside>
@@ -73,13 +72,14 @@
                 <img src="learningJapanese.jpg" alt="writing Japanese Kanji in notebook">
                 <!--© Photo taken by Kyle Santos 2020 -->
                 <figcaption>Writing Japanese Kanji characters over and over.</figcaption>
+                Interest in Japanese language and Linguistics, have taken intro lingusitics class
               </figure>
             </aside>
         </th>
         </tr>
         <tr>
           <th>
-            <section>
+            <div>
               <h3>Other Interests</h3>
               <ul>
                 <li>Taking apart phones / Right to Repair</li>
@@ -88,7 +88,7 @@
                 <li>Nintendo fan (since GBA)</li>
                 <li>Android user; interest in flashing ROMs, app development</li>
               </ul>
-            </section>
+            </div>
           </th>
           <th>
             <img src="octpathperlerproj.jpg" alt="My homemade Perler bead art project of characters
@@ -101,51 +101,66 @@
         <tr>
           <th colspan="2">
             <h3>Devices</h3>
-            <h4>Phones</h4>>
+            <h4>Phones</h4>
             <ul>
               <li>Daily driver: Stock ATT Samsung Galaxy Note 4 (TouchWiz Marshmallow),
                 SM-N910A mobo installed in T-Mobile housing</li>
-              <li>Backup: Used market part sourced T-Mobile Galaxy Note 4 (Stock rooted).
-                Bought cheap broken Note4's to use my n910T board</li>
+              <li>Backup: Used market part sourced T-Mobile Galaxy Note 4 (Stock rooted);
+                Bought cheap broken Note4's to use with my old n910T board</li>
               <li>More backup Parts: SM-N910P (Sprint) Note4 motherboard, extra SM-N910T board</li>
               <li>Nook Simple Touch, stock rooted</li>
               <li>iPhone: Sprint iPhone 6s, ios13</li>
-              <li>Older device: Moto G2 XT1064 - RR Nougat</li>
+              <li>Old device: Moto G2 XT1064 - RR Nougat</li>
             </ul>
             <h4>Laptop: Dell Latitude E7450</h4>
             <h4>Smartwatch: Gear S3 Frontier</h4>
+            <h4>Desktop: Dell Optiplex 7020 SFF i5-4590 GT 1030 (cheap upgraded business machine)</h4>
+            <h4>Audio</h4>
+            <ul>
+              <li>JBL Tune 205 - If you like the open design / fit of apple earbuds (Earpods)
+                 I highly reccommend these</li>
+            </ul>
           </th>
         </tr>
       </table>
-    </section>
+    </div>
 
-    <section>
+    <div>
       <h2>Perler Bead Projects</h2>
-      <section id="perlerbeadprojectsgroup">
+      <div id="perlerbeadprojectsgroup">
         <p>I started beading around 2013 (?) after me and my brother got  an interesting "melty beads"
           kit at Walmart one day. Took a long break until the 2020 Covid quarantine, when I realized that
            I could bring my favorite characters to life from my favorite game at the time, Octopath Traveler.
-           I some coffee paper and framed them up, and they proudly hang on my wall today. I continue to make
+           I made some coffee paper and framed them up, and they proudly hang on my wall today. I continue to make
            more mini Perler projects occasionally, while lately I've been working on some software in Java and
            Google Sheets Apps Script to help me organize my bead projects.
         </p>
-      </section>
+      </div>
+      <div>
+        <img src="gsheetsprim.png">
+        <figcaption>Pattern creation in Google Sheets, with Apps Script.</figcaption>
+        <img src="scholarprim final.jpg">
+        <figcaption>End Result!</figcaption>
+      </div>
       
-    </section>
+    </div>
 
-    <section>
+    <div>
       <h2 color="white">Cool things I've made in the past</h2>
-      <section class="coolthingsivemadeinthepastgroup">
+      <div class="coolthingsivemadeinthepastgroup">
         <a href="https://snap.berkeley.edu/project?user=kylesaki714&project=PartnerProjectAsteroids" target="_blank" class="coolthings">
           <img src="ppasteroids.png" alt="asteriods game screenshot">
+          <figcaption color="black">Homeade Asteroids.</figcaption>
           <!--© Photo taken by Kyle Santos 2020 -->
         </a>
         <a href="https://snap.berkeley.edu/project?user=kylesaki714&project=%5BCreateTask%5DOuter%20Conflict" target="_blank" class="coolthings">
           <img src="outerconflict.png" alt="2 player asteroids game screenshot">
+          <figcaption>Final Project for AP Computer Science Principles.</figcaption>
           <!--© Photo taken by Kyle Santos 2020 -->
         </a>
         <a href="https://scratch.mit.edu/projects/97014724/" target="_blank" class="coolthings">
           <img src="scratchSansProject.png" alt="Undertale Sans game screenshot" width=150px>
+          <figcaption>Recreation of Sans' fight from Undertale</figcaption>
           <!--© Photo taken by Kyle Santos 2020 -->
         </a>
         <figure id="scratchpage" class="coolthings">
@@ -155,20 +170,20 @@
           </a>
           <figcaption>My old Scratch profile.</figcaption>
         </figure>
-      </section>
-    </section>
+      </div>
+    </div>
   </main>
 
     <img src="kubota.jpg" id="kubotapic">
 
-    <section id="contactme">
+    <div id="contactme">
       <h2 class="contacts">Contact Me</h2>
       <p class="contacts">
         Instagram @kylesukiyaki <br>
         <a href="https://www.linkedin.com/in/kyle-santos-8472361b4/" class="contacts">LinkedIn</a> <br>
         Email kyle13san@gmail.com
       </p>
-    </section>
+    </div>
 
   <footer>
     <!--<img src="logo.png" class="footer" alt="logo" height=30>-->
