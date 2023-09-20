@@ -4,7 +4,7 @@ TODO: red neo tokyo theme
 */
 
 * {
-  /*margin: 0 0;*/
+  margin: 0 0;
 }
 
 html {
@@ -22,13 +22,22 @@ h1 {
   color: white;
 }
 
-h2 {
+/* h2 {
   color: black;
   margin-left: 5%;
   display: inline;
   text-align: left;
+} */
+
+h3 {
+  color: black;
+  margin-left: 0px;
+  text-align: left;
 }
 
+/* p, a {
+  margin-left: 0px 0px 0px 2%;
+} */
 
 header {
   position: static;
@@ -68,16 +77,49 @@ footer {
   text-align: center;
   bottom: 0px;
 }
-
+/* 
 .intro {
   margin-bottom: 10px;
-}
+} */
 
-div.dabble {
+/* .dabbles {
+  margin-left: 2%; 
+} */
+
+div.dabblecategory {
   background-color: white;
-  margin: 10px 0px 10px 0px;
+  padding: 10px 2% 10px 2%;
+  margin: 0px 0px 40px 0px;
 }
 
+.dabblecategoryname {
+  margin: 3%;
+}
+
+div.dabble p,a {
+  margin: 2%;
+}
+
+/* div.dabblecategory * {
+  display: block;
+  padding-left: 5%;
+} */
+/* 
+div.dabblepics {
+  justify-content: right;
+
+} */
+
+div.dabblepics {
+  justify-self: right;
+}
+
+
+
+.technologies {
+  font-style: italic;
+  font-weight: bold;
+}
 
 
 
@@ -147,11 +189,15 @@ div.dabble {
 /*background-color: rgb(255, 255, 255);*/
 }
 
-.intro {
+.intro, .dabbleinfo {
   display: flex;
   align-items: center;
 }
 
+.dabbleinfo {
+  justify-content: space-between;
+  
+}
 
 #biopic {
   /* margin-left: 5%;
@@ -164,7 +210,7 @@ div.dabble {
 #missionstatement {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
+  margin-left: 7%;
   /* margin-bottom: 100px; */
 }
 
