@@ -35,65 +35,119 @@ BS/R: Haruki Murakami stuff
     <header>
       <!--<img src="pics/logo.png" class="header" height=45 alt="logo">-->
       <!-- logo designed by Kyle Santos, 2020-->
-      <a href="index.html" class="headerstuff">
-        <h1>Kyle Santos</h1>
-      </a>
-      <a href="aboutme.html" class="headerstuff">
-        <h1>About Me</h1>
-      </a>
-      <a href="workandschool.html" class="headerstuff">
-        <h1>Education</h1>
-      </a>
-      <a href="https://medium.com/@kyle13san" class="headerstuff">
-        <h1>Blog</h1>
-      </a>
+      <div class="headerstuff">
+        <a href="index.html">
+          <h1>KS</h1>
+        </a>
+        <a href="aboutme.html">
+          <h1>About Me</h1>
+        </a>
+        <a href="workandschool.html">
+          <h1>Education</h1>
+        </a>
+        <a href="https://medium.com/@kyle13san">
+          <h1>Blog</h1>
+        </a>
+      </div>
     </header>
-    <div class="intro">
-      <img src="pics/20220520_185509.jpg" height=500px alt="Picture of Kyle" id="biopic">
-      <h1 id="missionstatement">To create things cool<br><br>To create things helpful<br><br>To create things inspiring</h1>
+    
+    <div class="nameintrocontainer">
+      <div class="myname">
+        <h1>Kyle Santos</h1>
+      </div>
+      
+      <div class="intro">
+        <img src="pics/20220520_185509.jpg" height=500px alt="Picture of Kyle" id="biopic">
+        <h1 id="missionstatement">To create things cool<br><br>To create things helpful<br><br>To create things inspiring</h1>
+      </div>
     </div>
+      
     <div class="dabbles">
       <div class="dabblecategory">
         <h2 class="dabblecategoryname">Programming</h2>
         <div class="dabble">
           <h3 class="dabblename">Trick Tracks</h3>
-          <p class="technologies">Unity, C#</p>
-          <a class="dabbleurl" href="https://kylesukiyaki.itch.io/track-master">Itch.io Page</a>
+          <div class="dabblelinks">
+            <p class="technologies">Unity, C#</p>
+            <a class="dabbleurl" href="https://kylesukiyaki.itch.io/track-master">Itch.io Page</a>
+          </div>
           <div class="dabbleinfo">
             <div class="dabbletext">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                 It has survived not only five centuries, but also the leap into electronic typesetting, 
-                 remaining essentially unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                  software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p>
+                This is my first Unity game project on my own! The idea originally came to fruition during the GMTK Game Jam 2023. I hope to put my game design theory and programming experience to test!
+                <br>
+                <br>
+                I have always loved arcade racing games. I played CTR on the PS1 when I was younger, and Mario Kart Wii CTGP-R during high school. I’ve recently discovered the stylish Ridge Racer Type 4 and am having a blast. RRT4 is the base inspiration for this game’s gameplay, music, and visuals.  
+                <br>
+                <br>
+                <em>Trick Tracks is an action puzzle racing game where YOU control the track! Place blocks on the track to jump, trick, and grind your way past competition. Win the race- or even better, chase a high score! Push your tricking skill to the limit when Trick Tracks comes out &lt;TBD&gt;!!</em>
+                </p>
             </div>
             <div class="dabblepics">
-              <img src="pics/marioPerler.jpg" alt="picture of Trick Tracks Game.">
+              <img src="pics/tricktracks_gameplay1.gif" alt="gif of Trick Tracks Game.">
             </div>
           </div>
         </div>
 
+        <div class="dabble">
+          <h3 class="dabblename">SpriteAlive</h3>
+          <div class="dabblelinks">
+            <p class="technologies">Java, Spring Boot</p>
+            <a class="dabbleurl" href="https://spritealive-391002.uw.r.appspot.com/">SpriteAlive Site</a>
+          </div>
+          <div class="dabbleinfo">
+            <div class="dabbletext">
+              <!-- TODO rewrite this -->
+              <p>
+                During my first hours of beading video game sprites, I found it was a horribly troublesome task of keeping track of the colors that I used throughout a sprite, and their respective places. During Spring break of 2021 I looked around but was unsatisfied with other "picture to bead sprite" converters and managers online. So, I wanted to use my new Java skills I learned from class. I was using Google Sheets to keep track of my bead colors, so I decided to write a Java program that would work with Google Sheets Apps Script that did all the tedious work for me.
+              </p>
+            </div>
+            <div class="dabblepics">
+              <img src="pics/beadinvjavascreen.png" alt="gif of spritealive beta Java GUI">
+              <img src="pics/gsheetsprim.png" alt="gif of generated sprite pattern">
+            </div>
+          </div>
+        </div>
+
+        <div class="dabble">
+          <!-- <h3 class="dabblename">Holodash_</h3> -->
+          <img src="pics/HoloDash_Logo_Seattle.png" class="dabblename">
+          <div class="dabblelinks">
+            <p class="technologies">Unity, C#</p>
+            <a class="dabbleurl" href="https://holodash.itch.io/holodash">Itch.io Page</a>
+          </div>
+          <div class="dabbleinfo">
+            <div class="dabbletext">
+              <p>
+                This is a game capstone project I worked on with my group of 5. It was my first exposure to Unity and I learned a lot about the whole process of making a game. I remember it being very fun, because it was the first time I got to be creative in a CS course. I developed a procedurally generated level system and made an Instagram page. See the devlog below! 
+              </p>
+              <br>
+              <a href="https://holodash.jhyn.dev/">Game devlog</a>
+            </div>
+            <div class="dabblepics">
+              <img src="pics/Screenshot (48).png" alt="picture of holodash gameplay.">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gXC5I4UZ-48?si=ZTafTQ_aw1jv5hrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="dabblecategory">
         <h2 class="dabblecategoryname">IT</h2>
+
         <div class="dabble">
           <h3 class="dabblename">Cardboard NAS 3000 with RPi WoL Server 🔥</h3>
-          <p class="technologies">TrueNAS Core</p>
-          <a class="dabbleurl" href="https://kylesukiyaki.itch.io/track-master">Itch.io Page</a>
+          <div class="dabblelinks">
+            <p class="technologies">TrueNAS Core</p>
+            <!-- <a class="dabbleurl" href="https://kylesukiyaki.itch.io/track-master">Itch.io Page</a> -->
+          </div>
           <div class="dabbleinfo">
             <div class="dabbletext">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                 It has survived not only five centuries, but also the leap into electronic typesetting, 
-                 remaining essentially unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                  software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p>
+                Stay tuned!  
+              </p>
             </div>
             <div class="dabblepics">
-              <img src="pics/marioPerler.jpg" alt="picture of cardboard nas.">
+              <img src="pics/kubota.jpg" alt="picture of cardboard nas.">
             </div>
           </div>
         </div>
@@ -101,25 +155,64 @@ BS/R: Haruki Murakami stuff
       </div>
       <div class="dabblecategory">
         <h2 class="dabblecategoryname">Arts</h2>
+
         <div class="dabble">
-          <h3 class="dabblename">Character Design And Animation For Real Time Cinematics</h3>
-          <p class="technologies">Unity, Maya 3D</p>
-          <a class="dabbleurl" href="https://miro.com/app/board/uXjVM8Ma21Y=/?share_link_id=103387473743">Miro Board</a>
+          <h3 class="dabblename">3D Character Class: Clay Capybara</h3>
+          <div class="dabblelinks">
+            <p class="technologies">Unity, Maya 3D</p>
+            <a class="dabbleurl" href="https://miro.com/app/board/uXjVM8Ma21Y=/?share_link_id=103387473743">Miro Board</a>
+          </div>
           <div class="dabbleinfo">
             <div class="dabbletext">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                 It has survived not only five centuries, but also the leap into electronic typesetting, 
-                 remaining essentially unchanged. It was popularised in the 1960s with the release of
-                  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                  software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p>
+                I took a class in Summer 2023 where I made my very own 3D character model in Maya. We went through the entire process of modeling, rigging, skin grafting, animating, and presenting in unity! Have a look at this itch link!
+              </p>
+              <br>
+              <a href="https://kylesukiyaki.itch.io/cse-490a-character-class-capybara-demo">https://kylesukiyaki.itch.io/cse-490a-character-class-capybara-demo</a>
             </div>
             <div class="dabblepics">
-              <img src="pics/marioPerler.jpg" alt="picture of cardboard nas.">
+              <img src="pics/claycapyThumbsUp_anim.gif" alt="picture of cardboard nas.">
             </div>
           </div>
         </div>
+
+        <div class="dabble">
+          <h3 class="dabblename">Perler Bead Projects</h3>
+          <div class="dabblelinks">
+            <p class="technologies">Perler, Artkal, SpriteAlive</p>
+            <!-- <a class="dabbleurl" href="aaaaaaaaaaaaaaaaaa">Itch.io Page</a> -->
+          </div>
+          <div class="dabbleinfo">
+            <div class="dabbletext">
+              <p>I started beading around 2013 (?) after me and my brother got an interesting "melty beads" kit at Walmart one day. Took a long break until the 2020 Covid quarantine, when I realized that I could bring my favorite characters to life from my favorite game at the time, Octopath Traveler. I made some coffee paper and framed them up, and they proudly hang on my wall today. I continue to make more mini Perler projects occasionally, while lately I've been working on some software in Java and Google Sheets Apps Script to help me organize my bead projects.
+              </p>
+            </div>
+            <div class="dabblepics">
+              <img src="pics/scholarprim final.jpg" alt="picture of Octopath Traveler's Primrose in Perler bead form.">
+              <img src="pics/octpathperlerproj.jpg" alt="picture of Octopath Traveler 8 traveler perler art framed.">
+            </div>
+          </div>
+        </div>
+
+        <div class="dabble">
+          <h3 class="dabblename">Japanese</h3>
+          <div class="dabblelinks">
+            <p class="technologies">@ Seattle Central College, University of Washington</p>
+            <!-- <a class="dabbleurl" href="aaaaaaaaaaaaaaaaaa">Itch.io Page</a> -->
+          </div>
+          <div class="dabbleinfo">
+            <div class="dabbletext">
+              <p>
+                大学の日本語のクラスを取りました。楽しかったです！韓国語のクラスも取りました。でも、日本語のほうが好きです！
+              </p>
+            </div>
+            <div class="dabblepics">
+              <img src="pics/learningJapanese.jpg" alt="picture of Japanese Kanji.">
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </body>
