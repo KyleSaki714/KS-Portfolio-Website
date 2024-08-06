@@ -49,6 +49,11 @@
   padding: 20px;
 }
 
+.hover:hover {
+  filter: brightness(85%);
+  cursor: pointer;
+}
+
 .modal {
   display: none;
   position: fixed;
