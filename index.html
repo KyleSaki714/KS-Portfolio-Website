@@ -1,9 +1,21 @@
+<!--
+  ***
+  Name: Kyle Santos
+  Date: 8-6-2024
+  This is my simple website redesign. Sometimes its best to just
+  stick with what works and what's already there.
+  Main inspiration: https://www.brianatiyeh.com/
+  Modal code from: https://www.w3schools.com/howto/howto_css_modals.asp
+  ***
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="index.js"></script>
   <title>Kyle Santos</title>
 </head>
 <body>
@@ -19,16 +31,64 @@
       <div class="projects-block">
         <h1>Projects</h1>
         <div class="row">
-          <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
-          <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          <div class="project-card" id="project-0">
+            <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          </div>
+          <div class="project-card" id="project-1">
+            <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          </div>
         </div>
         <div class="row">
-          <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
-          <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          <div class="project-card" id="project-2">
+            <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          </div>          
+          <div class="project-card" id="project-3">
+            <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          </div>
         </div>
         <div class="row">
-          <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
-          <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          <div class="project-card" id="project-4">
+            <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          </div>
+          <div class="project-card" id="project-5">
+            <img src="pics/tricktracks_gameplay1.gif" alt="Trick Tracks gameplay">
+          </div>
+        </div>
+      </div>
+      <div id="project-0-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>test text in modal 0</p>
+        </div>
+      </div>
+      <div id="project-1-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>test text in modal 1</p>
+        </div>
+      </div>
+      <div id="project-2-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>test text in modal 2</p>
+        </div>
+      </div>
+      <div id="project-3-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>test text in modal 3</p>
+        </div>
+      </div>
+      <div id="project-4-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>test text in modal 4</p>
+        </div>
+      </div>
+      <div id="project-5-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>test text in modal 5</p>
         </div>
       </div>
     </div>

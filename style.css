@@ -1,3 +1,17 @@
+.aboutme-block, .competencies-block, .projects-block .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aboutme-block p, .competencies-block p {
+  flex: 1;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0px;
+}
+
 #landing-top {
   display: flex;
   flex-direction: row;
@@ -26,12 +40,6 @@
   display: flex;
   flex-direction: column;
 }
-.projects-block .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .projects-block img {
   height: 200px;
   margin-left: 20px;
@@ -39,6 +47,42 @@
   margin-bottom: 20px;
   background-color: blanchedalmond;
   padding: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .center-items {
@@ -50,31 +94,6 @@
   margin-left: 20px;
 }
 
-.competencies-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.competencies-block p {
-  flex: 1;
-  display: inline-block;
-  margin: 20px;
-  margin-top: 0px;
-}
-
-.aboutme-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.aboutme-block p {
-  flex: 1;
-  display: inline-block;
-  margin: 20px;
-  margin-top: 0px;
-}
 .aboutme-block img {
   flex: 1;
   display: inline-block;
