@@ -1,7 +1,22 @@
 
+@mixin halfsplit() {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@mixin halfsplitp() {
+  flex: 1;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0px;
+}
+
 #landing-top {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center !important;
   height: 85vh;
   min-height: 500px;
@@ -18,14 +33,16 @@
   // margin-right: 80px;
 }
 
+.projects-container {
+  display: flex;
+  justify-content: center;
+}
+
 .projects-block {
   display: flex;
   flex-direction: column;
   .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include halfsplit();
   }
   img {
     height: 200px;
@@ -41,31 +58,22 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  h1 {
+    margin-left: 20px;
+  }
 }
 
 .competencies-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  @include halfsplit();
   p {
-    flex: 1;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 0px;
+    @include halfsplitp();
   }
 }
 
 .aboutme-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  @include halfsplit();
   p {
-    flex: 1;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 0px;
+    @include halfsplitp();
   }
   img {
     flex: 1;
