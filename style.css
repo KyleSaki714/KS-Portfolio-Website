@@ -23,16 +23,55 @@
 .projects-block .row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .projects-block img {
-  height: 150px;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: blanchedalmond;
+  padding: 20px;
 }
 
 .center-items {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.competencies-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.competencies-block p {
+  flex: 1;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.aboutme-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.aboutme-block p {
+  flex: 1;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0px;
+}
+.aboutme-block img {
+  flex: 1;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0px;
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
