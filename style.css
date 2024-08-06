@@ -1,0 +1,38 @@
+#landing-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  height: 85vh;
+  min-height: 500px;
+  width: 100%;
+}
+#landing-top img {
+  margin: 30px;
+  max-height: 300px;
+}
+
+.landing-block {
+  max-width: 600px;
+  margin: 20px;
+}
+
+.projects-block {
+  display: flex;
+  flex-direction: column;
+}
+.projects-block .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.projects-block img {
+  height: 150px;
+}
+
+.center-items {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
