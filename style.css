@@ -12,6 +12,25 @@
   margin-top: 0px;
 }
 
+body {
+  background-color: #EEEEEE;
+}
+
+h1 {
+  color: #134B70;
+  font-family: "Imprima", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+}
+
+p {
+  color: #201E43;
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 #landing-top {
   display: flex;
   flex-direction: row;
@@ -45,7 +64,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  background-color: blanchedalmond;
+  background-color: #508C9B;
   padding: 20px;
 }
 
