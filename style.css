@@ -12,6 +12,33 @@
   margin-top: 0px;
 }
 
+footer p, header p, header a {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+section {
+  margin-bottom: 20vh;
+}
+
+header {
+  background-color: #134B70;
+  display: flex;
+  flex-direction: row;
+}
+header p, header a {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+}
+header a {
+  align-self: flex-end;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   background-color: #EEEEEE;
