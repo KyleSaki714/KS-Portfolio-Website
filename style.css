@@ -29,6 +29,7 @@ p {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+  font-size: 1.2em;
 }
 
 #landing-top {
@@ -43,6 +44,8 @@ p {
 #landing-top img {
   margin: 30px;
   max-height: 300px;
+  border-bottom-width: 12px;
+  border-bottom-style: double;
 }
 
 .landing-block {
@@ -65,7 +68,7 @@ p {
   margin-right: 20px;
   margin-bottom: 20px;
   background-color: #508C9B;
-  padding: 20px;
+  padding: 12px;
 }
 
 .hover:hover {

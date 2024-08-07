@@ -1,5 +1,12 @@
 // https://colorhunt.co/palette/201e43134b70508c9beeeeee
 
+$dark-color: #201E43;
+$primary-color: #134B70;
+$secondary-color: #508C9B;
+$bgcolor: #EEEEEE;
+
+
+
 
 %halfsplit {
   display: flex;
@@ -16,22 +23,23 @@
 }
 
 body {
-  background-color: #EEEEEE;
+  background-color: $bgcolor;
 }
 
 h1 {
-  color: #134B70;
+  color: $primary-color;
   font-family: "Imprima", sans-serif;
   font-weight: 400;
   font-style: bold;
 }
 
 p {
-  color: #201E43;
+  color: $dark-color;
   font-family: "Overpass", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+  font-size: 1.2em;
 }
 
 #landing-top {
@@ -45,6 +53,8 @@ p {
   img {
     margin: 30px;
     max-height: 300px;
+    border-bottom-width: 12px;
+    border-bottom-style: double;
   }
 }
 
@@ -70,8 +80,8 @@ p {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: #508C9B;
-    padding: 20px;
+    background-color: $secondary-color;
+    padding: 12px;
   }
 }
 
