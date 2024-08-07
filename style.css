@@ -13,6 +13,7 @@
 }
 
 body {
+  margin: 0;
   background-color: #EEEEEE;
 }
 
@@ -44,8 +45,9 @@ p {
 #landing-top img {
   margin: 30px;
   max-height: 300px;
-  border-bottom-width: 12px;
-  border-bottom-style: double;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #508C9B;
 }
 
 .landing-block {
@@ -127,6 +129,19 @@ p {
   margin: 20px;
   margin-top: 0px;
   width: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #134B70;
+  padding: 20px;
+}
+footer p {
+  color: white;
+  margin: 0;
+}
+footer img {
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
