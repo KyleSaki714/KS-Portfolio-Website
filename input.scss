@@ -63,7 +63,7 @@ h1 {
   font-style: bold;
 }
 
-p {
+p, li {
   color: $dark-color;
   font-family: "Overpass", sans-serif;
   font-optical-sizing: auto;
@@ -142,6 +142,9 @@ p {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  img {
+    max-width: 50vw;
+  }
 }
 
 .close {
@@ -167,8 +170,11 @@ p {
   }
 }
 
-.competencies-block {
+.experience-block {
   @extend %halfsplit;
+  li {
+    margin-left: 20px;
+  }
   p {
     @extend %halfsplitp;
   }

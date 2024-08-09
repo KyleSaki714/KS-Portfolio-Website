@@ -1,11 +1,11 @@
-.aboutme-block, .competencies-block, .projects-block .row {
+.aboutme-block, .experience-block, .projects-block .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.aboutme-block p, .competencies-block p {
+.aboutme-block p, .experience-block p {
   flex: 1;
   display: inline-block;
   margin: 20px;
@@ -51,7 +51,7 @@ h1 {
   font-style: bold;
 }
 
-p {
+p, li {
   color: #201E43;
   font-family: "Overpass", sans-serif;
   font-optical-sizing: auto;
@@ -126,6 +126,9 @@ p {
   border: 1px solid #888;
   width: 80%;
 }
+.modal-content img {
+  max-width: 50vw;
+}
 
 .close {
   color: #aaaaaa;
@@ -150,6 +153,9 @@ p {
   margin-left: 20px;
 }
 
+.experience-block li {
+  margin-left: 20px;
+}
 .aboutme-block img {
   flex: 1;
   display: inline-block;
