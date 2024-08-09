@@ -26,6 +26,7 @@ header {
   background-color: #134B70;
   display: flex;
   flex-direction: row;
+  margin-bottom: 80px;
 }
 header p, header a {
   display: inline-block;
@@ -62,24 +63,29 @@ p, li {
 
 #landing-top {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  align-items: center !important;
   height: 85vh;
   min-height: 500px;
-  width: 100%;
 }
-#landing-top img {
+
+.landing-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.landing-block > div {
+  margin: 20px;
+  max-width: 600px;
+}
+.landing-block img {
+  max-width: 350px;
   margin: 30px;
   max-height: 300px;
   border-style: solid;
   border-width: 8px;
   border-color: #508C9B;
-}
-
-.landing-block {
-  max-width: 600px;
-  margin: 20px;
 }
 
 .projects-container {

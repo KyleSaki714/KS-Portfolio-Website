@@ -33,6 +33,7 @@ header {
   background-color: #134B70;
   display: flex;
   flex-direction: row;
+  margin-bottom: 80px;
   // justify-content: space-evenly;
   p, a {
     display: inline-block;
@@ -74,13 +75,24 @@ p, li {
 
 #landing-top {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  align-items: center !important;
   height: 85vh;
   min-height: 500px;
-  width: 100%;
+}
+
+.landing-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  // width: 100%;
+  & > div {
+    margin: 20px;
+    max-width: 600px;
+  }
   img {
+    max-width: 350px;
     margin: 30px;
     max-height: 300px;
     border-style: solid;
@@ -88,11 +100,7 @@ p, li {
     // border-bottom-width: 20px;
     border-color: $secondary-color;
   }
-}
-
-.landing-block {
-  max-width: 600px;
-  margin: 20px;
+  // margin: 20px;
   // margin-right: 80px;
 }
 
