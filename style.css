@@ -5,7 +5,7 @@
   flex-wrap: wrap;
 }
 
-.aboutme-block p, .experience-block p {
+.aboutme-block > div, .experience-block p {
   flex: 1;
   display: inline-block;
   margin: 20px;
@@ -161,7 +161,8 @@ p, li {
   display: inline-block;
   margin: 20px;
   margin-top: 0px;
-  width: 50px;
+  width: 100%;
+  height: auto;
 }
 
 footer {

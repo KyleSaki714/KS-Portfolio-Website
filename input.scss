@@ -182,7 +182,7 @@ p, li {
 
 .aboutme-block {
   @extend %halfsplit;
-  p {
+  & > div {
     @extend %halfsplitp;
   }
   img {
@@ -190,7 +190,8 @@ p, li {
     display: inline-block;
     margin: 20px;
     margin-top: 0px;
-    width: 50px;
+    width: 100%;
+    height: auto;
   }
 }
 
