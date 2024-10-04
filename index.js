@@ -7,10 +7,22 @@
     let modals = document.querySelectorAll(".modal");
     let projectCards = document.querySelectorAll(".project-card");
     console.log(projectCards)
-    let projectNum = 0;
     for (const modal of modals) {
+      
+      let modalId = modal.id.split("-")[1];
+      
+      let projectCard;
+      // select appropriate project card
+      for (const pCard of projectCards) {
+        let projectNum = pCard.id.split("-")[1];
+        if (projectNum === modalId) {
+          projectCard = pCard;
+          console.log(projectCard.id + " chosen for modal " + modalId);
+        }
+      }
+      
       // open modal button
-      projectCards[projectNum].addEventListener("click", () => {
+      projectCard.addEventListener("click", () => {
         modal.style.display = "block";
         console.log("modal added to projcard " + projectNum);
       });
@@ -27,7 +39,6 @@
           modal.style.display = "none";
         }
       })
-      projectNum++;
     }
     console.log("init");     
   }
