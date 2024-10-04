@@ -24,7 +24,6 @@
       // open modal button
       projectCard.addEventListener("click", () => {
         modal.style.display = "block";
-        console.log("modal added to projcard " + projectNum);
       });
       
       // close button
