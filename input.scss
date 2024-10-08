@@ -1,9 +1,11 @@
 // https://colorhunt.co/palette/201e43134b70508c9beeeeee
 
 $text-color: #ffffff; // #201E43 for light mode
+$text-color-modal: #000000; // #201E43 for light mode
 $primary-color: #073763; // #134B70;
 $secondary-color: #81c0d0;
 $bgcolor: #EEEEEE;
+$bgcolor_modal: #646464;
 
 %halfsplit {
   display: flex;
@@ -24,6 +26,7 @@ $bgcolor: #EEEEEE;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: 
 }
 
 section {
@@ -152,7 +155,7 @@ p, li {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: $bgcolor_modal;
   margin: auto;
   padding: 20px;
   padding-bottom: 50vh;
@@ -225,7 +228,6 @@ footer {
   padding: 20px;
   p {
     @extend %headerfooterfont;
-    color: white;
     margin: 0;
   }
   img {
