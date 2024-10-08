@@ -1,8 +1,8 @@
 // https://colorhunt.co/palette/201e43134b70508c9beeeeee
 
-$dark-color: #201E43;
-$primary-color: #134B70;
-$secondary-color: #508C9B;
+$text-color: #ffffff; // #201E43 for light mode
+$primary-color: #073763; // #134B70;
+$secondary-color: #81c0d0;
 $bgcolor: #EEEEEE;
 
 %halfsplit {
@@ -30,7 +30,7 @@ section {
 }
 
 header {
-  background-color: #134B70;
+  background-color: $primary-color;
   display: flex;
   flex-direction: row;
   margin-bottom: 80px;
@@ -52,20 +52,20 @@ header {
 body {
   margin: 0;
   background-color: $bgcolor;
-  // background-image: url("pics/20210623_114138.jpg");
-  // background-attachment: fixed;
-  // background-size: cover;
+  background-image: url("pics/20210623_114138.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
-  color: $primary-color;
+  color: $secondary-color;
   font-family: "Imprima", sans-serif;
   font-weight: 400;
   font-style: bold;
 }
 
 p, li {
-  color: $dark-color;
+  color: $text-color;
   font-family: "Overpass", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -95,10 +95,10 @@ p, li {
     max-width: 350px;
     margin: 30px;
     max-height: 300px;
-    border-style: solid;
-    border-width: 8px;
+    // border-style: groove;
+    // border-width: 8px;
     // border-bottom-width: 20px;
-    border-color: $secondary-color;
+    // border-color: $primary-color;
   }
   // margin: 20px;
   // margin-right: 80px;
@@ -117,13 +117,13 @@ p, li {
   }
   img {
     max-width: 100%;
-    height: 300px;
+    height: 235px;
     object-fit: contain;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     background-color: $secondary-color;
-    padding: 12px;
+    // padding: 12px;
   }
 }
 
@@ -208,7 +208,7 @@ p, li {
 
 footer {
   text-align: center;
-  background-color: $primary-color;
+  // background-color: $primary-color;
   padding: 20px;
   p {
     @extend %headerfooterfont;
