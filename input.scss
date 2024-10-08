@@ -25,8 +25,9 @@ $bgcolor_modal: #646464;
   font-family: "Lora", serif; // used to use "Kanit" on google fonts
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 1.25em;
   font-style: normal;
-  color: 
+  color: $text-color;
 }
 
 section {
@@ -66,6 +67,7 @@ h1 {
   font-family: "Imprima", sans-serif;
   font-weight: 400;
   font-style: bold;
+  font-size: 1.9em;
 }
 
 p, li {
@@ -74,7 +76,7 @@ p, li {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 #landing-top {
@@ -130,7 +132,7 @@ p, li {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: $secondary-color;
+    // background-color: $secondary-color;
     // padding: 12px;
   }
 }

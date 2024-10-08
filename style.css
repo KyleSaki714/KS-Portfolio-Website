@@ -16,7 +16,9 @@ footer p, .aboutme-block figure figcaption, header p, header a {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 1.25em;
   font-style: normal;
+  color: #ffffff;
 }
 
 section {
@@ -54,6 +56,7 @@ h1 {
   font-family: "Imprima", sans-serif;
   font-weight: 400;
   font-style: bold;
+  font-size: 1.9em;
 }
 
 p, li {
@@ -62,7 +65,7 @@ p, li {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 #landing-top {
@@ -109,7 +112,6 @@ p, li {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  background-color: #81c0d0;
 }
 
 .hover:hover {
@@ -132,7 +134,7 @@ p, li {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #646464;
   margin: auto;
   padding: 20px;
   padding-bottom: 50vh;
@@ -190,7 +192,6 @@ footer {
   padding: 20px;
 }
 footer p {
-  color: white;
   margin: 0;
 }
 footer img {
