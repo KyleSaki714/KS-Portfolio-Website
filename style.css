@@ -12,7 +12,7 @@
   margin-top: 0px;
 }
 
-footer p, header p, header a {
+footer p, .aboutme-block figure figcaption, header p, header a {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -172,13 +172,17 @@ p, li {
 .experience-block li {
   margin-left: 20px;
 }
-.aboutme-block img {
+.aboutme-block figure img {
   flex: 1;
   display: inline-block;
   margin: 20px;
   margin-top: 0px;
-  width: 300px;
+  width: 44vw;
   height: auto;
+}
+.aboutme-block figure figcaption {
+  color: #ffffff;
+  text-align: center;
 }
 
 footer {

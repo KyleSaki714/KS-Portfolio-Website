@@ -202,13 +202,20 @@ p, li {
   & > div {
     @extend %halfsplitp;
   }
-  img {
-    flex: 1;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 0px;
-    width: 300px;
-    height: auto;
+  figure {
+    img {
+      flex: 1;
+      display: inline-block;
+      margin: 20px;
+      margin-top: 0px;
+      width: 44vw;
+      height: auto;
+    }
+    figcaption {
+      color: $text-color;
+      text-align: center;
+      @extend %headerfooterfont;
+    }
   }
 }
 
