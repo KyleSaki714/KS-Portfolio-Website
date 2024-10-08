@@ -20,8 +20,9 @@ $bgcolor: #EEEEEE;
 }
 
 %headerfooterfont {
-  font-family: "Kanit", sans-serif;
-  font-weight: 300;
+  font-family: "Lora", serif; // used to use "Kanit" on google fonts
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
 
